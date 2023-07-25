@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/tecladocode/python-refresher-exercises/tree/master.svg?style=svg&circle-token=3b955c7041ce6d3bd963fe077eabffd8f7259f87)](https://app.circleci.com/pipelines/github/tecladocode/python-refresher-exercises)
-
 # Python Refresher Exercises
 
 This repository contains a series of exercises to help you refresh your Python knowledge. It's intended to be used as a companion to the [Python Refresher Course](https://tecladocode.com/python-refresher).
