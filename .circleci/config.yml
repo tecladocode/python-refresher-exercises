@@ -34,7 +34,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            for dir in tests/*/; do cd $dir && python -m unittest discover -s "." && cd ../..; done
+            for dir in */; do cd $dir && python -m unittest discover -s "." && cd ..; done
 
       - store_artifacts:
           path: test-reports

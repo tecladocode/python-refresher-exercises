@@ -1,19 +1,36 @@
 [![CircleCI](https://circleci.com/gh/tecladocode/python-refresher-exercises/tree/master.svg?style=svg&circle-token=3b955c7041ce6d3bd963fe077eabffd8f7259f87)](https://app.circleci.com/pipelines/github/tecladocode/python-refresher-exercises)
 
-# REST API Course Exercises
+# Python Refresher Exercises
 
-You know how to write them!
+This repository contains a series of exercises to help you refresh your Python knowledge. It's intended to be used as a companion to the [Python Refresher Course](https://tecladocode.com/python-refresher).
 
-## Contributing
+## How to attempt the exercises
 
-Create a new branch for your coding exercise.
+First, clone this repository:
 
-Make sure to create the following files in each exercise directory:
+```bash
+git clone https://github.com/tecladocode/python-refresher-exercises
+```
 
-* `README.md`: a description of the problem for students to read.
-* `exercise.py`: the solution of the problem.
-* `tests.py`: the tests that will check the problem has been solved correctly. Make sure to check as many edge cases as possible!
-* `student.py`: the starting code we'll provide the students. You can add comments here and any required code.
-* `__init__.py`: required so the test runner will be able to run these tests automatically.
+Then, open the repository with your editor of choice (I recommend Visual Studio Code).
 
-Then, make a PR into `master`!
+You'll find a few folders, one per exercise. Each folder contains a `README.md` file with the instructions for the exercise, a `student.py` file with some starter code, and a `tests.py` file with some tests.
+
+For example, for exercise 1, open `01_variables/README.md` and read the instructions.
+
+Then:
+
+- Rename `01_variables/exercise.py` to `01_variables/solution.py`.
+- Rename `01_variables/student.py` to `01_variables/exercise.py`.
+- Attempt your solution in the new `exercise.py` file.
+
+Once you're ready, run the tests by going into the folder and running unittest:
+
+```
+cd 01_variables
+python -m unittest
+```
+
+You should see `OK` printed out, and that means it's all good!
+
+If you want to check the instructor's solution, that's in the old `exercise.py` (now called `solution.py`) file.

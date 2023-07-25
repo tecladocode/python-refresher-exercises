@@ -1,3 +1,5 @@
+# Dictionaries and Students
+
 This coding exercise has three parts. See them outlined in detail in the coding exercise, as comments.
 
 1. Create a dictionary variable, called `student`.

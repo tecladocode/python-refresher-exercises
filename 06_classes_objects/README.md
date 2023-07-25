@@ -1,3 +1,5 @@
+# Classes and Objects
+
 This coding exercise requires you to complete an implementation of three methods of a class:
 
 1. The `__init__` method, which should take an argument, `name`. It should initialise `self.name` to be the argument, and `self.items` to be an empty list.

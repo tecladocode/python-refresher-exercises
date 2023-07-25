@@ -1,3 +1,5 @@
+# @classmethod and @staticmethod
+
 This coding exercise requires you to complete two method implementations.
 
 1. The `franchise` method, which takes in a store as argument. It should return a new `Store` object, with a name equal to the argument + `" - franchise"`.
@@ -5,7 +7,7 @@ This coding exercise requires you to complete two method implementations.
 
 A few examples:
 
-```
+```python
 store = Store("Test")
 store2 = Store("Amazon")
 store2.add_item("Keyboard", 160)
